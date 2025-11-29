@@ -8,7 +8,7 @@ set -euo pipefail
 
 # Resolver rutas relativas al directorio raíz del proyecto
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-TARGETS_FILE="$BASE_DIR/results/targets_ips.txt"
+TARGETS_FILE="$BASE_DIR/data/targets_ips.txt"
 RESULTS_DIR="$BASE_DIR/results"
 OUTPUT_FILE="$RESULTS_DIR/scan_ics_all.nmap"
 
